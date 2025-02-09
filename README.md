@@ -1,5 +1,12 @@
 💡  **Reminder Notification Script**
 
+While working on our laptops, we usually don't keep an eye on time. 
+We barely get up and drink water, have lunch/snacks proper on time and tend to miss it. On a serious note, it affects our health in so many bad ways!
+There exists a cool technical solution to this problem:
+And that is to create an application which will remind us of important activities like drinking water, having lunch, snacks etc by sending notifications on the laptop. Hence, I tried implementing it.
+
+**So, Let's run the code**
+
 This Python script sends desktop notifications at specific times during the day to remind you about:
 
 ✅ Lunch & Water (1 PM)
@@ -45,17 +52,12 @@ Open Command Prompt (CMD)
 
 Navigate to the script’s folder:
 
-sh
-Copy
-Edit
 cd path\to\your\script
 (Example: cd C:\Users\YourName\Documents)
 
 **Run the script:**
 
-sh
-Copy
-Edit
+
 python reminder.py
 The script will start running in the background and send notifications at the scheduled times.
 
