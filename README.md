@@ -15,6 +15,7 @@ Ensures no duplicate notifications within the same hour.
 Lightweight & runs silently in the background.
 
 **🛠️ Installation & Setup**
+
 1️⃣ Install Python
 Check if Python is installed by running:
 
