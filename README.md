@@ -1,4 +1,5 @@
-💡 Reminder Notification Script
+💡  **Reminder Notification Script**
+
 This Python script sends desktop notifications at specific times during the day to remind you about:
 ✅ Lunch & Water (1 PM)
 ✅ Snacks & Water (4 PM)
