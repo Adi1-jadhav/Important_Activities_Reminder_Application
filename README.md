@@ -8,12 +8,13 @@ This Python script sends desktop notifications at specific times during the day 
 
 It runs in the background and checks every 5 minutes to send reminders.
 
-📌 Features
+**📌 Features**
 Sends notifications using Windows 10/11’s built-in notification system (win10toast).
 Automatically resets reminders at the start of a new day.
 Ensures no duplicate notifications within the same hour.
 Lightweight & runs silently in the background.
-🛠️ Installation & Setup
+
+**🛠️ Installation & Setup**
 1️⃣ Install Python
 Check if Python is installed by running:
 
@@ -23,10 +24,10 @@ Edit
 python --version
 If not installed, download it from Python.org and check "Add Python to PATH" during installation.
 
-2️⃣ Install Required Libraries
+**2️⃣ Install Required Libraries**
 Open Command Prompt (CMD) and run:
 
-pip install win10toast
+**pip install win10toast**
 🚀 How to Run
 Save the script as reminder.py
 
@@ -40,7 +41,7 @@ Edit
 cd path\to\your\script
 (Example: cd C:\Users\YourName\Documents)
 
-Run the script:
+**Run the script:**
 
 sh
 Copy
@@ -48,7 +49,7 @@ Edit
 python reminder.py
 The script will start running in the background and send notifications at the scheduled times.
 
-📜 Code Explanation
+**📜 Code Explanation**
 Uses win10toast to send Windows notifications.
 Runs an infinite loop to check the time every 5 minutes (sleep(300)).
 Sends reminders for lunch, snacks, logging off, and drinking water.
